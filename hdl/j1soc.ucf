@@ -1,0 +1,12 @@
+
+## Clock signal
+NET "sys_clk_i"   LOC = "P84"	| IOSTANDARD = "LVCMOS33";
+ 
+## Buttons
+NET "sys_rst_i"	LOC = "P123" | IOSTANDARD = LVCMOS33 | PULLDOWN; #RPI_GPIO12
+
+NET "uart_tx"	LOC = "P70"	| IOSTANDARD = "LVCMOS33";
+NET "uart_rx"	LOC = "P69"	| IOSTANDARD = "LVCMOS33";		
+
+
+
