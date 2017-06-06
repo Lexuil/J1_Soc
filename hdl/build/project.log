@@ -50,51 +50,51 @@ RTL Output                         : yes
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1soc.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1soc.v" into library work
 Parsing module <j1soc>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" into library work
 Parsing module <j1>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpram.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpram.v" into library work
 Parsing module <dp_ram>.
-INFO:HDLCompiler:693 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpram.v" Line 24. parameter declaration becomes local in dp_ram with formal parameter declaration list
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" into library work
+INFO:HDLCompiler:693 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpram.v" Line 24. parameter declaration becomes local in dp_ram with formal parameter declaration list
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" into library work
 Parsing module <uart>.
-INFO:HDLCompiler:693 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 25. parameter declaration becomes local in uart with formal parameter declaration list
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_uart.v" into library work
+INFO:HDLCompiler:693 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 25. parameter declaration becomes local in uart with formal parameter declaration list
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/peripheral_uart.v" into library work
 Parsing module <peripheral_uart>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/peripheral_mult.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/peripheral_mult.v" into library work
 Parsing module <peripheral_mult>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/acc.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/acc.v" into library work
 Parsing module <acc>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/comp.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/comp.v" into library work
 Parsing module <comp>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/control_mult.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/control_mult.v" into library work
 Parsing module <control_mult>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/lsr.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/lsr.v" into library work
 Parsing module <lsr>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/rsr.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/rsr.v" into library work
 Parsing module <rsr>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/mult_32.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/mult_32.v" into library work
 Parsing module <mult_32>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/peripheral_div.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/peripheral_div.v" into library work
 Parsing module <peripheral_div>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/control_div.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/control_div.v" into library work
 Parsing module <control_div>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/counter_div.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/counter_div.v" into library work
 Parsing module <counter_div>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/div_16.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/div_16.v" into library work
 Parsing module <div_16>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/final_result.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/final_result.v" into library work
 Parsing module <final_result>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/lsr_div.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/lsr_div.v" into library work
 Parsing module <lsr_div>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/subtractor.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/subtractor.v" into library work
 Parsing module <subtractor>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/core_peripheric.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpRAM/core_peripheric.v" into library work
 Parsing module <core_peripheric>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/dualport_RAM.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpRAM/dualport_RAM.v" into library work
 Parsing module <dualport_RAM>.
-Analyzing Verilog file "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/dpRAM_interface.v" into library work
+Analyzing Verilog file "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpRAM/dpRAM_interface.v" into library work
 Parsing module <dpRAM_interface>.
 
 =========================================================================
@@ -106,15 +106,15 @@ Elaborating module <j1soc>.
 Elaborating module <j1(bootram_file="../firmware/Hello_World/j1.mem")>.
 
 Elaborating module <dp_ram(adr_width=13,dat_width=16,mem_file_name="../firmware/Hello_World/j1.mem")>.
-Reading initialization file \"media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/../firmware/Hello_World/j1.mem\".
-WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 46: Size mismatch in connection of port <en_b>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 47: Size mismatch in connection of port <adr_a>. Formal port size is 13-bit while actual signal size is 15-bit.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 90: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 117: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 129: Result of 32-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 134: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 155: Result of 15-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v" Line 157: Result of 16-bit expression is truncated to fit in 13-bit target.
+Reading initialization file \"media/lexuil/Ubuntu Data/J1_Soc/hdl/../firmware/Hello_World/j1.mem\".
+WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 46: Size mismatch in connection of port <en_b>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 47: Size mismatch in connection of port <adr_a>. Formal port size is 13-bit while actual signal size is 15-bit.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 90: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 117: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 129: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 134: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 155: Result of 15-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v" Line 157: Result of 16-bit expression is truncated to fit in 13-bit target.
 
 Elaborating module <peripheral_mult>.
 
@@ -123,64 +123,60 @@ Elaborating module <mult_32>.
 Elaborating module <rsr>.
 
 Elaborating module <lsr>.
-WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/mult_32.v" Line 21: Size mismatch in connection of port <s_A>. Formal port size is 31-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/mult_32.v" Line 21: Size mismatch in connection of port <s_A>. Formal port size is 31-bit while actual signal size is 32-bit.
 
 Elaborating module <comp>.
 
 Elaborating module <acc>.
 
 Elaborating module <control_mult>.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/control_mult.v" Line 63: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/control_mult.v" Line 63: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <peripheral_div>.
 
 Elaborating module <div_16>.
 
 Elaborating module <lsr_div>.
-WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/div_16.v" Line 21: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/div_16.v" Line 21: Size mismatch in connection of port <rst>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <subtractor>.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/subtractor.v" Line 19: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/subtractor.v" Line 19: Result of 32-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <counter_div>.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/counter_div.v" Line 18: Result of 32-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/counter_div.v" Line 22: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/counter_div.v" Line 18: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/counter_div.v" Line 22: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <control_div>.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/control_div.v" Line 69: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:91 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/control_div.v" Line 90: Signal <DV0> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/control_div.v" Line 69: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:91 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/control_div.v" Line 90: Signal <DV0> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 
 Elaborating module <final_result>.
-WARNING:HDLCompiler:1016 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_uart.v" Line 78: Port rx_error is not connected to this instance
+WARNING:HDLCompiler:1016 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/peripheral_uart.v" Line 78: Port rx_error is not connected to this instance
 
 Elaborating module <peripheral_uart>.
 
 Elaborating module <uart>.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 40: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 137: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v" Line 140: Result of 5-bit expression is truncated to fit in 4-bit target.
-
-Elaborating module <dpRAM_interface>.
-
-Elaborating module <dualport_RAM>.
-
-Elaborating module <core_peripheric>.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 40: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 137: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v" Line 140: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:634 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1soc.v" Line 29: Net <dp_ram_dout[15]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <j1soc>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1soc.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1soc.v".
         bootram_file = "../firmware/Hello_World/j1.mem"
+WARNING:Xst:653 - Signal <dp_ram_dout> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <j1soc> synthesized.
 
 Synthesizing Unit <j1>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/j1.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/j1.v".
         bootram_file = "../firmware/Hello_World/j1.mem"
     Found 32x16-bit dual-port RAM <Mram_dstack> for signal <dstack>.
     Found 32x16-bit dual-port RAM <Mram_rstack> for signal <rstack>.
@@ -215,7 +211,7 @@ Synthesizing Unit <j1>.
 Unit <j1> synthesized.
 
 Synthesizing Unit <dp_ram>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpram.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/dpram.v".
         adr_width = 13
         dat_width = 16
         mem_file_name = "../firmware/Hello_World/j1.mem"
@@ -228,7 +224,7 @@ Synthesizing Unit <dp_ram>.
 Unit <dp_ram> synthesized.
 
 Synthesizing Unit <peripheral_mult>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/peripheral_mult.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/peripheral_mult.v".
     Found 16-bit register for signal <B>.
     Found 1-bit register for signal <init>.
     Found 1-bit register for signal <d_out<15>>.
@@ -255,13 +251,13 @@ Synthesizing Unit <peripheral_mult>.
 Unit <peripheral_mult> synthesized.
 
 Synthesizing Unit <mult_32>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/mult_32.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/mult_32.v".
     Summary:
 	no macro.
 Unit <mult_32> synthesized.
 
 Synthesizing Unit <rsr>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/rsr.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/rsr.v".
     Found 16-bit register for signal <s_B>.
     Summary:
 	inferred  16 D-type flip-flop(s).
@@ -269,7 +265,7 @@ Synthesizing Unit <rsr>.
 Unit <rsr> synthesized.
 
 Synthesizing Unit <lsr>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/lsr.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/lsr.v".
     Found 31-bit register for signal <s_A>.
     Summary:
 	inferred  31 D-type flip-flop(s).
@@ -277,13 +273,13 @@ Synthesizing Unit <lsr>.
 Unit <lsr> synthesized.
 
 Synthesizing Unit <comp>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/comp.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/comp.v".
     Summary:
 	no macro.
 Unit <comp> synthesized.
 
 Synthesizing Unit <acc>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/acc.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/acc.v".
     Found 32-bit register for signal <pp>.
     Found 32-bit adder for signal <pp[31]_A[31]_add_1_OUT> created at line 15.
     Summary:
@@ -292,7 +288,7 @@ Synthesizing Unit <acc>.
 Unit <acc> synthesized.
 
 Synthesizing Unit <control_mult>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/multiplier/mult_32/control_mult.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/multiplier/mult_32/control_mult.v".
         START = 3'b000
         CHECK = 3'b001
         SHIFT = 3'b010
@@ -325,7 +321,7 @@ Synthesizing Unit <control_mult>.
 Unit <control_mult> synthesized.
 
 Synthesizing Unit <peripheral_div>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/peripheral_div.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/peripheral_div.v".
     Found 16-bit register for signal <B>.
     Found 1-bit register for signal <init>.
     Found 1-bit register for signal <d_out<15>>.
@@ -352,13 +348,13 @@ Synthesizing Unit <peripheral_div>.
 Unit <peripheral_div> synthesized.
 
 Synthesizing Unit <div_16>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/div_16.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/div_16.v".
     Summary:
 	no macro.
 Unit <div_16> synthesized.
 
 Synthesizing Unit <lsr_div>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/lsr_div.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/lsr_div.v".
     Found 16-bit register for signal <DV>.
     Found 16-bit register for signal <A>.
     Summary:
@@ -367,7 +363,7 @@ Synthesizing Unit <lsr_div>.
 Unit <lsr_div> synthesized.
 
 Synthesizing Unit <subtractor>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/subtractor.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/subtractor.v".
     Found 16-bit register for signal <Result>.
     Found 32-bit adder for signal <n0023> created at line 19.
     Found 32-bit adder for signal <n0014> created at line 19.
@@ -379,7 +375,7 @@ Synthesizing Unit <subtractor>.
 Unit <subtractor> synthesized.
 
 Synthesizing Unit <counter_div>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/counter_div.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/counter_div.v".
     Found 1-bit register for signal <z>.
     Found 5-bit register for signal <cont>.
     Found 5-bit subtractor for signal <GND_16_o_GND_16_o_sub_2_OUT<4:0>> created at line 18.
@@ -390,7 +386,7 @@ Synthesizing Unit <counter_div>.
 Unit <counter_div> synthesized.
 
 Synthesizing Unit <control_div>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/control_div.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/control_div.v".
         START = 3'b000
         SHIFT_DEC = 3'b001
         CHECK = 3'b010
@@ -425,17 +421,17 @@ WARNING:Xst:737 - Found 1-bit latch for signal <DV0>. Latches may be generated f
 Unit <control_div> synthesized.
 
 Synthesizing Unit <final_result>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/divider/div_16/final_result.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/divider/div_16/final_result.v".
     Found 16-bit register for signal <Result>.
     Summary:
 	inferred  16 D-type flip-flop(s).
 Unit <final_result> synthesized.
 
 Synthesizing Unit <peripheral_uart>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_uart.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/peripheral_uart.v".
 WARNING:Xst:647 - Input <d_in<15:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_uart.v" line 78: Output port <rx_error> of the instance <uart> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_uart.v" line 78: Output port <rx_busy> of the instance <uart> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/peripheral_uart.v" line 78: Output port <rx_error> of the instance <uart> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/peripheral_uart.v" line 78: Output port <rx_busy> of the instance <uart> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <tx_wr>.
     Found 8-bit register for signal <tx_uart>.
     Found 16-bit register for signal <d_out>.
@@ -447,7 +443,7 @@ INFO:Xst:3210 - "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/peripheral_ua
 Unit <peripheral_uart> synthesized.
 
 Synthesizing Unit <uart>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/uart/uart.v".
+    Related source file is "/media/lexuil/Ubuntu Data/J1_Soc/hdl/uart/uart.v".
         freq_hz = 50000000
         baud = 115200
     Found 1-bit register for signal <uart_rxd1>.
@@ -476,55 +472,11 @@ Synthesizing Unit <uart>.
 	inferred  16 Multiplexer(s).
 Unit <uart> synthesized.
 
-Synthesizing Unit <dpRAM_interface>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/dpRAM_interface.v".
-    Summary:
-	no macro.
-Unit <dpRAM_interface> synthesized.
-
-Synthesizing Unit <dualport_RAM>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/dualport_RAM.v".
-    Found 256x16-bit dual-port RAM <Mram_ram> for signal <ram>.
-    Found 16-bit register for signal <d_out_2>.
-    Found 16-bit register for signal <d_out_1>.
-    Summary:
-	inferred   1 RAM(s).
-	inferred  32 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
-Unit <dualport_RAM> synthesized.
-
-Synthesizing Unit <core_peripheric>.
-    Related source file is "/media/lexuil/Ubuntu Data/Codigos/J1_soc/hdl/dpRAM/core_peripheric.v".
-    Found 16-bit register for signal <F_2>.
-    Found 16-bit register for signal <F_3>.
-    Found 16-bit register for signal <F_4>.
-    Found 16-bit register for signal <F_5>.
-    Found 16-bit register for signal <F_6>.
-    Found 4-bit register for signal <estado>.
-    Found 16-bit register for signal <F_1>.
-    Found finite state machine <FSM_2> for signal <estado>.
-    -----------------------------------------------------------------------
-    | States             | 14                                             |
-    | Transitions        | 15                                             |
-    | Inputs             | 1                                              |
-    | Outputs            | 9                                              |
-    | Clock              | clk (rising_edge)                              |
-    | Power Up State     | 0000                                           |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Summary:
-	inferred  96 D-type flip-flop(s).
-	inferred  10 Multiplexer(s).
-	inferred   1 Finite State Machine(s).
-Unit <core_peripheric> synthesized.
-
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 4
- 256x16-bit dual-port RAM                              : 1
+# RAMs                                                 : 3
  32x16-bit dual-port RAM                               : 2
  8192x16-bit dual-port RAM                             : 1
 # Adders/Subtractors                                   : 16
@@ -536,10 +488,10 @@ Macro Statistics
  5-bit adder                                           : 2
  5-bit addsub                                          : 1
  5-bit subtractor                                      : 1
-# Registers                                            : 52
+# Registers                                            : 44
  1-bit register                                        : 12
  13-bit register                                       : 1
- 16-bit register                                       : 24
+ 16-bit register                                       : 16
  31-bit register                                       : 1
  32-bit register                                       : 1
  4-bit register                                        : 6
@@ -551,10 +503,10 @@ Macro Statistics
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 3
  4-bit comparator greater                              : 2
-# Multiplexers                                         : 84
- 1-bit 2-to-1 multiplexer                              : 14
+# Multiplexers                                         : 72
+ 1-bit 2-to-1 multiplexer                              : 12
  13-bit 2-to-1 multiplexer                             : 3
- 16-bit 2-to-1 multiplexer                             : 40
+ 16-bit 2-to-1 multiplexer                             : 30
  16-bit 3-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 1
  3-bit 4-to-1 multiplexer                              : 1
@@ -567,7 +519,7 @@ Macro Statistics
 # Logic shifters                                       : 2
  16-bit shifter logical left                           : 1
  16-bit shifter logical right                          : 1
-# FSMs                                                 : 3
+# FSMs                                                 : 2
 # Xors                                                 : 1
  16-bit xor2                                           : 1
 
@@ -585,29 +537,6 @@ WARNING:Xst:2404 -  FFs/Latches <d_out<15:8>> (without init value) have a consta
 Synthesizing (advanced) Unit <acc>.
 The following registers are absorbed into accumulator <pp>: 1 register on signal <pp>.
 Unit <acc> synthesized (advanced).
-
-Synthesizing (advanced) Unit <dualport_RAM>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ram> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 256-word x 16-bit                   |          |
-    |     clkA           | connected to signal <clk>           | fall     |
-    |     weA            | connected to internal node          | high     |
-    |     addrA          | connected to signal <addr_1>        |          |
-    |     diA            | connected to signal <d_in_1>        |          |
-    |     doA            | connected to internal node          |          |
-    -----------------------------------------------------------------------
-    | Port B                                                              |
-    |     aspect ratio   | 256-word x 16-bit                   |          |
-    |     clkB           | connected to signal <clk>           | fall     |
-    |     weB            | connected to internal node          | high     |
-    |     addrB          | connected to signal <addr_2>        |          |
-    |     diB            | connected to signal <d_in_2>        |          |
-    |     doB            | connected to internal node          |          |
-    -----------------------------------------------------------------------
-Unit <dualport_RAM> synthesized (advanced).
 
 Synthesizing (advanced) Unit <j1>.
 The following registers are absorbed into counter <dsp>: 1 register on signal <dsp>.
@@ -679,8 +608,7 @@ Unit <uart> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 4
- 256x16-bit dual-port distributed RAM                  : 1
+# RAMs                                                 : 3
  32x16-bit dual-port distributed RAM                   : 1
  32x16-bit single-port block RAM                       : 1
  8192x16-bit dual-port block RAM                       : 1
@@ -698,16 +626,16 @@ Macro Statistics
  5-bit up counter                                      : 1
 # Accumulators                                         : 1
  32-bit up accumulator                                 : 1
-# Registers                                            : 454
- Flip-Flops                                            : 454
+# Registers                                            : 326
+ Flip-Flops                                            : 326
 # Comparators                                          : 6
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 3
  4-bit comparator greater                              : 2
-# Multiplexers                                         : 129
- 1-bit 2-to-1 multiplexer                              : 64
+# Multiplexers                                         : 117
+ 1-bit 2-to-1 multiplexer                              : 62
  13-bit 2-to-1 multiplexer                             : 2
- 16-bit 2-to-1 multiplexer                             : 38
+ 16-bit 2-to-1 multiplexer                             : 28
  16-bit 3-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 1
  3-bit 4-to-1 multiplexer                              : 1
@@ -720,7 +648,7 @@ Macro Statistics
 # Logic shifters                                       : 2
  16-bit shifter logical left                           : 1
  16-bit shifter logical right                          : 1
-# FSMs                                                 : 3
+# FSMs                                                 : 2
 # Xors                                                 : 1
  16-bit xor2                                           : 1
 
@@ -752,26 +680,6 @@ Optimizing FSM <per_d/d_16/ctl_dv/FSM_1> on signal <state[1:3]> with user encodi
  100   | 100
  101   | 101
 -------------------
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <dpRm/c_p/FSM_2> on signal <estado[1:4]> with user encoding.
--------------------
- State | Encoding
--------------------
- 0000  | 0000
- 0001  | 0001
- 0010  | 0010
- 0011  | 0011
- 0100  | 0100
- 0101  | 0101
- 0110  | 0110
- 0111  | 0111
- 1000  | 1000
- 1001  | 1001
- 1010  | 1010
- 1011  | 1011
- 1100  | 1100
- 1101  | 1101
--------------------
 
 Optimizing unit <j1soc> ...
 
@@ -800,10 +708,6 @@ Optimizing unit <counter_div> ...
 Optimizing unit <control_div> ...
 
 Optimizing unit <final_result> ...
-
-Optimizing unit <dualport_RAM> ...
-
-Optimizing unit <core_peripheric> ...
 WARNING:Xst:2677 - Node <per_u/uart/rx_error> of sequential type is unconnected in block <j1soc>.
 WARNING:Xst:1710 - FF/Latch <per_u/uart/enable16_counter_15> (without init value) has a constant value of 0 in block <j1soc>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <per_u/uart/enable16_counter_14> (without init value) has a constant value of 0 in block <j1soc>. This FF/Latch will be trimmed during the optimization process.
@@ -819,9 +723,7 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <per_u/uart/enable16
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block j1soc, actual ratio is 412.
-Optimizing block <j1soc> to meet ratio 100 (+ 0) of 600 slices :
-WARNING:Xst:2254 - Area constraint could not be met for block <j1soc>, final ratio is 422.
+Found area constraint ratio of 100 (+ 0) on block j1soc, actual ratio is 34.
 FlipFlop per_u/uart/uart_txd has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
@@ -830,8 +732,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 4598
- Flip-Flops                                            : 4598
+# Registers                                            : 370
+ Flip-Flops                                            : 370
 
 =========================================================================
 
@@ -854,25 +756,24 @@ Top Level Output File Name         : project.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 7332
+# BELS                             : 849
 #      GND                         : 1
-#      INV                         : 9
+#      INV                         : 10
 #      LUT1                        : 14
-#      LUT2                        : 70
-#      LUT3                        : 70
-#      LUT4                        : 157
-#      LUT5                        : 513
-#      LUT6                        : 5423
+#      LUT2                        : 67
+#      LUT3                        : 73
+#      LUT4                        : 124
+#      LUT5                        : 143
+#      LUT6                        : 210
 #      MUXCY                       : 113
-#      MUXF7                       : 581
-#      MUXF8                       : 288
+#      MUXF7                       : 1
 #      VCC                         : 1
 #      XORCY                       : 92
-# FlipFlops/Latches                : 4599
-#      FD                          : 12
+# FlipFlops/Latches                : 371
+#      FD                          : 8
 #      FD_1                        : 41
-#      FDE                         : 4224
-#      FDE_1                       : 175
+#      FDE                         : 32
+#      FDE_1                       : 143
 #      FDR                         : 47
 #      FDR_1                       : 1
 #      FDRE                        : 64
@@ -897,18 +798,18 @@ Selected Device : 6slx4tqg144-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            4597  out of   4800    95%  
- Number of Slice LUTs:                 6272  out of   2400   261% (*) 
-    Number used as Logic:              6256  out of   2400   260% (*) 
+ Number of Slice Registers:             369  out of   4800     7%  
+ Number of Slice LUTs:                  657  out of   2400    27%  
+    Number used as Logic:               641  out of   2400    26%  
     Number used as Memory:               16  out of   1200     1%  
        Number used as RAM:               16
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   6387
-   Number with an unused Flip Flop:    1790  out of   6387    28%  
-   Number with an unused LUT:           115  out of   6387     1%  
-   Number of fully used LUT-FF pairs:  4482  out of   6387    70%  
-   Number of unique control sets:       288
+ Number of LUT Flip Flop pairs used:    708
+   Number with an unused Flip Flop:     339  out of    708    47%  
+   Number with an unused LUT:            51  out of    708     7%  
+   Number of fully used LUT-FF pairs:   318  out of    708    44%  
+   Number of unique control sets:        24
 
 IO Utilization: 
  Number of IOs:                           4
@@ -919,8 +820,6 @@ Specific Feature Utilization:
  Number of Block RAM/FIFO:                9  out of     12    75%  
     Number using Block RAM only:          9
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
-
-WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
 
 ---------------------------
 Partition Resource Summary:
@@ -943,7 +842,7 @@ Clock Information:
 ----------------------------------------------------------------------------------+-------------------------------+-------+
 Clock Signal                                                                      | Clock buffer(FF name)         | Load  |
 ----------------------------------------------------------------------------------+-------------------------------+-------+
-sys_clk_i                                                                         | BUFGP                         | 4613  |
+sys_clk_i                                                                         | BUFGP                         | 385   |
 per_d/d_16/ctl_dv/state[2]_PWR_19_o_Mux_22_o(per_d/d_16/ctl_dv/state__n0067<5>1:O)| NONE(*)(per_d/d_16/ctl_dv/DV0)| 1     |
 ----------------------------------------------------------------------------------+-------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
@@ -959,7 +858,7 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 22.192ns (Maximum Frequency: 45.062MHz)
+   Minimum period: 18.221ns (Maximum Frequency: 54.883MHz)
    Minimum input arrival time before clock: 9.140ns
    Maximum output required time after clock: 4.118ns
    Maximum combinational path delay: No path found
@@ -970,27 +869,45 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'sys_clk_i'
-  Clock period: 22.192ns (frequency: 45.062MHz)
-  Total number of paths / destination ports: 1363924 / 9511
+  Clock period: 18.221ns (frequency: 54.883MHz)
+  Total number of paths / destination ports: 1083781 / 1059
 -------------------------------------------------------------------------
-Delay:               11.096ns (Levels of Logic = 3)
-  Source:            cpu0/ram0/Mram_ram7 (RAM)
-  Destination:       dpRm/dlptRAM/ram_FF_4095 (FF)
-  Source Clock:      sys_clk_i rising
-  Destination Clock: sys_clk_i falling
+Delay:               9.110ns (Levels of Logic = 21)
+  Source:            per_d/d_out_0 (FF)
+  Destination:       cpu0/ram0/Mram_ram1 (RAM)
+  Source Clock:      sys_clk_i falling
+  Destination Clock: sys_clk_i rising
 
-  Data Path: cpu0/ram0/Mram_ram7 to dpRm/dlptRAM/ram_FF_4095
+  Data Path: per_d/d_out_0 to cpu0/ram0/Mram_ram1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16BWER:CLKB->DOB1   76   2.100   2.251  cpu0/ram0/Mram_ram7 (cpu0/insn<13>)
-     LUT6:I3->O            9   0.235   0.976  cpu0/io_rd (j1_io_rd)
-     LUT6:I5->O         4352   0.254   3.543  dpRm/dlptRAM/Mmux_BUS_000111 (dpRm/dlptRAM/BUS_0001)
-     LUT5:I4->O           16   0.254   1.181  dpRm/dlptRAM/BUS_00012551 (dpRm/dlptRAM/BUS_0001_255)
-     FDE:CE                    0.302          dpRm/dlptRAM/ram_FF_4080
+     FD_1:C->Q             1   0.525   0.910  per_d/d_out_0 (per_d/d_out_0)
+     LUT6:I3->O            1   0.235   0.682  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A410 (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A48)
+     LUT4:I3->O            1   0.254   0.682  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A412 (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A49)
+     LUT6:I5->O            1   0.254   0.682  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A413 (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A410)
+     LUT6:I5->O            1   0.254   0.682  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_A414 (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_A<0>)
+     LUT6:I5->O            1   0.254   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_lut<0> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<0> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<1> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<2> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<3> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<4> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<5> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<6> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<7> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<8> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<9> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<10> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<11> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<12> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<13> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_cy<13>)
+     XORCY:CI->O           3   0.206   0.874  cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_rs_xor<14> (cpu0/Mmux_st0sel[3]_st1[15]_wide_mux_24_OUT15_split<14>)
+     LUT6:I4->O           32   0.250   1.519  cpu0/ramWE_GND_2_o_AND_1_o1 (cpu0/ramWE_GND_2_o_AND_1_o)
+     RAMB16BWER:WEA0           0.330          cpu0/ram0/Mram_ram1
     ----------------------------------------
-    Total                     11.096ns (3.145ns logic, 7.951ns route)
-                                       (28.3% logic, 71.7% route)
+    Total                      9.110ns (3.079ns logic, 6.031ns route)
+                                       (33.8% logic, 66.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'sys_clk_i'
@@ -1044,7 +961,7 @@ Clock to Setup on destination clock per_d/d_16/ctl_dv/state[2]_PWR_19_o_Mux_22_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk_i      |         |         |    2.690|         |
+sys_clk_i      |         |         |    2.640|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock sys_clk_i
@@ -1053,21 +970,21 @@ Clock to Setup on destination clock sys_clk_i
 Source Clock                                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------+---------+---------+---------+---------+
 per_d/d_16/ctl_dv/state[2]_PWR_19_o_Mux_22_o|         |         |    2.064|         |
-sys_clk_i                                   |   15.624|    9.918|   11.096|         |
+sys_clk_i                                   |   15.578|    9.110|    8.282|         |
 --------------------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 19.34 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.55 secs
  
 --> 
 
 
-Total memory usage is 461176 kilobytes
+Total memory usage is 390788 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   40 (   0 filtered)
-Number of infos    :    9 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
 

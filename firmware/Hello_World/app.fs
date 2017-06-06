@@ -32,7 +32,7 @@ swap multi_a !
 multi_b !
 d# 1 multi_init !
 begin multi_done @ d# 1 = until \ espera hasta que la señal done del multiplicador este en 1
-multi_pp_high @
+\ multi_pp_high @
 multi_pp_low @
 \ d# 2 + multi_a !
 ;
@@ -48,14 +48,25 @@ div_c @
 
 : main 
 
- d# 5 d# 3
 do
-get-uart
-get-uart
+
+
+get-uart dup put-uart
+get-uart dup put-uart
+
 
 multiplicar
+dup
+put-uart 
+h# FF
+dividir
 put-uart
-put-uart
+\ dup
+\ put-uart
+\ h# FF
+\ dividir
+\ put-uart
+
 loop
 
 \ do

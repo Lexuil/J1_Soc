@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 05 18:49:15 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "uart_rx" LOCATE = SITE "P69" LEVEL 1;
+COMP "uart_tx" LOCATE = SITE "P70" LEVEL 1;
+COMP "sys_clk_i" LOCATE = SITE "P84" LEVEL 1;
+COMP "sys_rst_i" LOCATE = SITE "P123" LEVEL 1;
+SCHEMATIC END;
+
