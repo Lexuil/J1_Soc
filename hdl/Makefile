@@ -19,9 +19,10 @@ DIV		= divider
 DIV_16		= divider/div_16
 UART		= uart
 dp_RAM		= dpRAM
+lvds = LVDS2
 
 
-SRC             = $(DESIGN).v j1.v dpram.v $(UART)/uart.v $(UART)/peripheral_uart.v $(MULT)/peripheral_mult.v  $(MULT_32)/acc.v  $(MULT_32)/comp.v  $(MULT_32)/control_mult.v  $(MULT_32)/lsr.v  $(MULT_32)/rsr.v  $(MULT_32)/mult_32.v $(DIV)/peripheral_div.v $(DIV_16)/control_div.v $(DIV_16)/counter_div.v $(DIV_16)/div_16.v $(DIV_16)/final_result.v $(DIV_16)/lsr_div.v $(DIV_16)/subtractor.v $(dp_RAM)/core_peripheric.v $(dp_RAM)/dualport_RAM.v $(dp_RAM)/dpRAM_interface.v
+SRC             = $(DESIGN).v j1.v dpram.v $(UART)/uart.v $(UART)/peripheral_uart.v $(MULT)/peripheral_mult.v  $(MULT_32)/acc.v  $(MULT_32)/comp.v  $(MULT_32)/control_mult.v  $(MULT_32)/lsr.v  $(MULT_32)/rsr.v  $(MULT_32)/mult_32.v $(DIV)/peripheral_div.v $(DIV_16)/control_div.v $(DIV_16)/counter_div.v $(DIV_16)/div_16.v $(DIV_16)/final_result.v $(DIV_16)/lsr_div.v $(DIV_16)/subtractor.v $(dp_RAM)/core_peripheric.v $(dp_RAM)/dualport_RAM.v $(dp_RAM)/dpRAM_interface.v $(lvds)/peripheral_lvds.v $(lvds)/LVDS_test.v $(lvds)/serializer.v $(lvds)/lvds_clockgen.v $(lvds)/video_lvds.v $(lvds)/ram.v	$(lvds)/dvi_decoder.v 
 
 SIM_SRC = $(DESIGN)_TB.v          \
 
@@ -94,10 +95,12 @@ postsim: build/project.ngc
 	gtkwave build/$(DESIGN)_TB.vcd&
 
 
-iversim:  build/project.src
+sim:  build/project.src  
 	$(IVERILOG) -gno-io-range-error -o simulation/$(DESIGN)_TB.vvp $(VINCDIR) $(SRC) $(SIM_SRC) -s $(DESIGN)_TB
 	vvp simulation/$(DESIGN)_TB.vvp; mv $(DESIGN)_TB.vcd simulation/
+
+iversim: sim
 	gtkwave simulation/$(DESIGN)_TB.vcd&
 
-upload: $(DESIGN).bit
-	scp $(DESIGN).bit root@$(SAKC_IP): 
+upload:
+	scp $(DESIGN).bit pi@192.168.43.211:Documents/Codigos 

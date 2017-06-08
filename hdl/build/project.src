@@ -20,3 +20,10 @@ verilog work ../divider/div_16/subtractor.v
 verilog work ../dpRAM/core_peripheric.v
 verilog work ../dpRAM/dualport_RAM.v
 verilog work ../dpRAM/dpRAM_interface.v
+verilog work ../LVDS2/peripheral_lvds.v
+verilog work ../LVDS2/LVDS_test.v
+verilog work ../LVDS2/serializer.v
+verilog work ../LVDS2/lvds_clockgen.v
+verilog work ../LVDS2/video_lvds.v
+verilog work ../LVDS2/ram.v
+verilog work ../LVDS2/dvi_decoder.v

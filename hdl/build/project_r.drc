@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Jun  5 18:49:33 2017
+Wed Jun  7 12:36:13 2017
 
 drc -z project_r.ncd
 
@@ -9,13 +9,24 @@ WARNING:PhysDesignRules:372 - Gated clock. Clock net
    per_d/d_16/ctl_dv/state[2]_PWR_19_o_Mux_22_o is sourced by a combinatorial
    pin. This is not good design practice. Use the CE pin to control the loading
    of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <cpu0/Mram_rstack1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <cpu0/Mram_rstack2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <cpu0/Mram_dstack1_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
 WARNING:PhysDesignRules:367 - The signal <cpu0/Mram_dstack2_RAMD_D1_O> is
    incomplete. The signal does not drive any load pins in the design.
-WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
-   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
-   default, may be incorrect and should not be used.  For more information,
-   please reference Xilinx Answer Record 39999.
-DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp
+   per_l/LVDS/videoencoder/clockgenerator/dcm_clk, consult the device Data
+   Sheet.
+WARNING:PhysDesignRules:774 - Unexpected DCM configuration. CLKOUT_PHASE_SHIFT
+   is not configured VARIABLE for comp per_l/LVDS/dcm_main. The PSEN pin is
+   connected to an active signal. The PSEN pin should be connected to GND to
+   guarantee the expected operation.
+INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp per_l/LVDS/dcm_main,
+   consult the device Data Sheet.
+DRC detected 0 errors and 6 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

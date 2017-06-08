@@ -5,8 +5,9 @@ include hw_defs.fs
 
 4 org
 module[ eveything"
-include nuc.fs
+\ include nuc.fs
 include app.fs
+
 
 ]module
 

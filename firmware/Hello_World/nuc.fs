@@ -13,6 +13,7 @@ module[ nuc"
 : 2drop drop drop ;
 : ?dup  dup if dup then ;
 
+
 : split                     ( a m -- a&m a&~m )
     over                    \ a m a
     and                     \ a a&m

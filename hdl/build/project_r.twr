@@ -32,40 +32,56 @@ Data Sheet report:
 All values displayed in nanoseconds (ns)
 
 Setup/Hold to clock sys_clk_i
-------------+------------+------------+------------+------------+------------------+--------+
-            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
-Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
-------------+------------+------------+------------+------------+------------------+--------+
-sys_rst_i   |   12.875(R)|      SLOW  |    0.122(R)|      SLOW  |sys_clk_i_BUFGP   |   0.000|
-            |   12.321(F)|      SLOW  |   -3.252(F)|      FAST  |sys_clk_i_BUFGP   |   0.000|
-uart_rx     |   -0.006(R)|      FAST  |    1.726(R)|      SLOW  |sys_clk_i_BUFGP   |   0.000|
-------------+------------+------------+------------+------------+------------------+--------+
+------------+------------+------------+------------+------------+--------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                    | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)   | Phase  |
+------------+------------+------------+------------+------------+--------------------+--------+
+sys_rst_i   |   10.258(R)|      SLOW  |    0.211(R)|      SLOW  |sys_clk_i_IBUFG_BUFG|   0.000|
+            |    6.724(F)|      SLOW  |   -0.232(F)|      SLOW  |sys_clk_i_IBUFG_BUFG|   0.000|
+uart_rx     |   -0.005(R)|      FAST  |    1.725(R)|      SLOW  |sys_clk_i_IBUFG_BUFG|   0.000|
+------------+------------+------------+------------+------------+--------------------+--------+
 
 Clock sys_clk_i to Pad
-------------+-----------------+------------+-----------------+------------+------------------+--------+
-            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
-Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
-------------+-----------------+------------+-----------------+------------+------------------+--------+
-uart_tx     |         8.853(R)|      SLOW  |         3.799(R)|      FAST  |sys_clk_i_BUFGP   |   0.000|
-------------+-----------------+------------+-----------------+------------+------------------+--------+
+------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+channel1_n  |         6.254(R)|      SLOW  |         2.121(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.192(R)|      SLOW  |         2.055(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+channel1_p  |         6.254(R)|      SLOW  |         2.121(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.192(R)|      SLOW  |         2.055(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+channel2_n  |         6.247(R)|      SLOW  |         2.114(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.185(R)|      SLOW  |         2.048(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+channel2_p  |         6.247(R)|      SLOW  |         2.114(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.185(R)|      SLOW  |         2.048(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+channel3_n  |         6.251(R)|      SLOW  |         2.118(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.189(R)|      SLOW  |         2.052(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+channel3_p  |         6.251(R)|      SLOW  |         2.118(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.189(R)|      SLOW  |         2.052(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+clock_n     |         6.255(R)|      SLOW  |         2.122(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.194(R)|      SLOW  |         2.057(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+clock_p     |         6.255(R)|      SLOW  |         2.122(R)|      FAST  |per_l/LVDS/videoencoder/clk35_BUFG   |   0.000|
+            |         6.194(R)|      SLOW  |         2.057(R)|      FAST  |per_l/LVDS/videoencoder/notclk35_BUFG|   0.000|
+uart_tx     |         8.853(R)|      SLOW  |         3.799(R)|      FAST  |sys_clk_i_IBUFG_BUFG                 |   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
 
 Clock to Setup on destination clock sys_clk_i
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk_i      |   16.556|    9.658|    7.169|    4.756|
+sys_clk_i      |   15.964|   10.206|    6.436|    3.855|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Jun  5 18:49:30 2017 
+Analysis completed Wed Jun  7 12:36:05 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 387 MB
+Peak Memory Usage: 408 MB
 
 
 
